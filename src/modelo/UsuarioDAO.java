@@ -28,7 +28,7 @@ public class UsuarioDAO {
         ArrayList<Usuario> al = new ArrayList<Usuario>();
         try
         {
-            ps = con().prepareStatement("select * from usuario");
+            ps = con().prepareStatement("select * from Usuario");
             rs = ps.executeQuery();
             while(rs.next())
             {

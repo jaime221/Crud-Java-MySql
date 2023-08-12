@@ -28,7 +28,7 @@ public class ProductoDAO {
         ArrayList<Producto> al = new ArrayList<Producto>();
         try
         {
-            ps = con().prepareStatement("select * from productos");
+            ps = con().prepareStatement("select * from Productos");
             rs = ps.executeQuery();
             while(rs.next())
             {
